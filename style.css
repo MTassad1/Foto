@@ -106,7 +106,7 @@ h2 { font-size: clamp(2rem, 4vw, 2.8rem); }
   overflow: hidden;
   background: var(--darker);
 }
-.hero__img { position: absolute; inset: 0; z-index: 0; }
+.hero__img { position: absolute; inset: 0; z-index: 0; object-position: 45% center; }
 .hero::after { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, rgba(10, 14, 11, 0.7), rgba(10, 14, 11, 0.25) 70%); }
 .hero__content { position: relative; z-index: 2; padding-top: 3rem; }
 .hero__content .eyebrow { margin-bottom: 1.4rem; }
